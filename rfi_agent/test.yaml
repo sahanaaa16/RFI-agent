@@ -1,0 +1,9 @@
+- id: apple_us_rfi
+  agent: root_agent
+  input: "Can you give me an RFI analysis for this Apple brief?"
+  expected_output_regex: "(?i)Basics.*Brand Overview.*Information Requested.*Constraints & Risks.*Case Studies (If Mentioned).*What They're Really Asking For.*Deadlines and Admin Milestones.*Readiness for Response"
+
+- id: samsung_eu_rfi
+  agent: root_agent
+  input: "Please provide an RFI analysis analysis for this Samsung document."
+  expected_output_regex: "(?i)Basics.*Brand Overview.*Information Requested.*Constraints & Risks.*Case Studies (If Mentioned).*What They're Really Asking For.*Deadlines and Admin Milestones.*Readiness for Response"
