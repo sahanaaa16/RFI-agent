@@ -5,4 +5,5 @@ python-docx
 PyPDF2
 python-dotenv
 openpyxl>=3.1.0
-python-pptx>=0.6.21
+python-pptx>=0.6.23
+pandas >=2.2.2
